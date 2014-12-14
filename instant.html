@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>\</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+<audio id="song_a">
+  <source src="http://www.amclassical.com/mp3/amclassical_angels_we_have_heard_on_high.mp3" type="audio/mpeg">
+</audio>
+	<script>
+
+	var silent = 'http://www.freexmasmp3.com/files/silent-night-disco.mp3'
+
+	var angels = 'http://www.amclassical.com/mp3/amclassical_angels_we_have_heard_on_high.mp3'
+
+	var playlist = [
+		'a_Happy_Christmas',
+		'b_Frosty_the_Snowman',
+		'c_Santa_Baby',
+		'd_All_I_Want_for_Christmas_Is_You',
+		'e_Rockin_Around_the_Christmas_Tree',
+		'f_The_Red_Nosed_Reindeer',
+		'g_Santa_Claus_Is_Coming_to_Town'
+	]
+
+	function makeAudio(src){
+		var source = '<audio id="audio_player">';
+		    // source +=  '<source id="audio_player_ogv" src="' + src + '.ogv"  type="audio/ogg" />';
+		    source +=  '<source id="audio_player_mp3" src="' + src + '" type="audio/mpeg" />';
+		    source +=  '</audio>';
+		    $('body').html(source);
+		    var aud = $('#audio_player').get(0);
+		    aud.play()
+	}
+
+	function destroyAudio(){
+		$('audio')[0].pause()
+		$('audio').remove();
+	}
+
+	$('audio')[0].play()
+
+	</script>
+</body>
+</html>

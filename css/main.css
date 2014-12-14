@@ -1,0 +1,358 @@
+* {
+-moz-box-sizing: border-box; /* Firexfox */
+-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+box-sizing: border-box; /* IE */
+}
+
+html{
+		background: url("../img/snow.jpg") no-repeat center bottom fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; 
+	}
+
+div#greetings {
+	background-color: rgba(180,0,1, .7);
+	box-shadow: 0 0 5px rgba(230, 230, 230, .7);
+	float: right;
+	margin: 50px 100px;
+	padding: 0 60px;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+#greetings h1 {
+	color: rgb(241, 185, 79);
+}
+
+#greetings h2 {
+	color: rgb(171, 248, 165);
+}
+
+#tree {
+	background: url("../img/tree.png");
+	background-size: cover;
+	width:700px;
+	height:600px;
+	margin-left: 100px;
+	position: relative;
+}
+
+ul.gifts {
+	list-style-type: none;
+	display: none;
+}
+
+li#fur {
+	background: url("../img/gifts/6.png");
+	background-size: cover;
+	width: 60px;
+	height: 80px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 80px;
+}
+
+li#heels {
+	background: url("../img/gifts/3.png");
+	background-size: cover;
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	margin-left: 240px;
+	margin-top: 70px;
+}
+
+li#lipstick {
+	background: url("../img/gifts/11.png");
+	background-size: cover;
+	width: 35px;
+	height: 60px;
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 150px;
+}
+
+li#hermes {
+	background: url("../img/gifts/12.png");
+	background-size: cover;
+	width: 80px;
+	height: 40px;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 170px;
+}
+
+li#iphone6 {
+	background: url("../img/gifts/14.png");
+	background-size: cover;
+	width: 55px;
+	height: 63px;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 170px;
+}
+
+li#silver_car {
+	background: url("../img/gifts/20.png");
+	background-size: cover;
+	width: 95px;
+	height: 25px;
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 270px;
+}
+
+li#ring {
+	background: url("../img/gifts/19.png");
+	background-size: cover;
+	width: 50px;
+	height: 35px;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 320px;
+}
+
+li#red_car {
+	background: url("../img/gifts/21.png");
+	background-size: cover;
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 450px;
+}
+
+li#lbd {
+	background: url("../img/gifts/10.png");
+	background-size: cover;
+	width: 70px;
+	height: 80px;
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 380px;
+}
+
+li#lv {
+	background: url("../img/gifts/15.png");
+	background-size: cover;
+	width: 63px;
+	height: 68px;
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 430px;
+}
+
+li#macbook {
+	background: url("../img/gifts/16.png");
+	background-size: cover;
+	width: 80px;
+	height: 45px;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 300px;
+}
+
+
+li#burberry {
+	background: url("../img/gifts/13.png");
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	margin-left: 390px;
+	margin-top: 380px;
+}
+
+li#shades {
+	background: url("../img/gifts/8.png");
+	background-size: cover;
+	width: 80px;
+	height: 40px;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 400px;
+}
+
+li#clubs {
+	background: url("../img/gifts/71.png");
+	background-size: cover;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 260px;
+}
+
+div#as {
+	display: block;
+}
+
+div a:visited {
+	background-color: #800040;
+	opacity: 0.6;
+}
+div a:hover {
+	opacity: 0.6;
+}
+
+a#fur_santa {
+	background: url("../img/covers/2.png");
+	background-size: cover;
+	width: 65px;
+	height: 85px;
+	position: absolute;
+	margin-left: 185px;
+	margin-top: 70px;
+	border: none;
+}
+
+a#heels_box {
+	background: url("../img/covers/3.png");
+	background-size: cover;
+	width: 60px;
+	height: 65px;
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 60px;
+	border: none;
+}
+
+a#lipstick_deer {
+	background: url("../img/covers/1.png");
+	background-size: cover;
+	width: 80px;
+	height: 90px;
+	position: absolute;
+	margin-left: 310px;
+	margin-top: 140px;
+	border: none;
+}
+
+a#hermes_box {
+	background: url("../img/covers/3.png");
+	background-size: cover;
+	width: 60px;
+	height: 65px;
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 160px;
+	border: none;
+}
+
+a#iphone6_snowman {
+	background: url("../img/covers/5.png");
+	background-size: cover;
+	width: 70px;
+	height: 80px;
+	position: absolute;
+	margin-left: 135px;
+	margin-top: 160px;
+	border: none;
+}
+
+a#silver_car_bell {
+	background: url("../img/covers/4.png");
+	background-size: cover;
+	width: 73px;
+	height: 70px;
+	position: absolute;
+	margin-left: 220px;
+	margin-top: 240px;
+	border: none;
+}
+
+a#ring_deer {
+	background: url("../img/covers/1.png");
+	background-size: cover;
+	width: 80px;
+	height: 90px;
+	position: absolute;
+	margin-left: 75px;
+	margin-top: 290px;
+	border: none;
+}
+
+a#red_car_bell {
+	background: url("../img/covers/4.png");
+	background-size: cover;
+	width: 73px;
+	height: 70px;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 420px;
+	border: none;
+}
+
+a#lbd_santa {
+	background: url("../img/covers/2.png");
+	background-size: cover;
+	width: 65px;
+	height: 85px;
+	position: absolute;
+	margin-left: 220px;
+	margin-top: 370px;
+	border: none;
+}
+
+a#lv_box {
+	background: url("../img/covers/3.png");
+	background-size: cover;
+	width: 60px;
+	height: 65px;
+	position: absolute;
+	margin-left: 320px;
+	margin-top: 430px;
+	border: none;
+}
+
+a#macbook_bell {
+	background: url("../img/covers/4.png");
+	background-size: cover;
+	width: 73px;
+	height: 70px;
+	position: absolute;
+	margin-left: 340px;
+	margin-top: 290px;
+	border: none;
+}
+
+
+a#burberry_snowman {
+	background: url("../img/covers/5.png");
+	background-size: cover;
+	width: 70px;
+	height: 80px;
+	position: absolute;
+	margin-left: 430px;
+	margin-top: 370px;
+	border: none;
+}
+
+a#shades_deer {
+	background: url("../img/covers/1.png");
+	background-size: cover;
+	width: 80px;
+	height: 90px;
+	position: absolute;
+	margin-left: 530px;
+	margin-top: 370px;
+	border: none;
+}
+
+a#clubs_snowman {
+	background: url("../img/covers/5.png");
+	background-size: cover;
+	width: 70px;
+	height: 80px;
+	position: absolute;
+	margin-left: 490px;
+	margin-top: 250px;
+	border: none;
+}
+
+a:hover a:not(:hover) {
+	opacity: 0.4;
+}
