@@ -42,7 +42,6 @@ div#greetings {
 
 ul.gifts {
 	list-style-type: none;
-	display: none;
 }
 
 li#fur {
@@ -190,11 +189,13 @@ div#as {
 	display: block;
 }
 
-div a:visited {
-	background-color: #800040;
-	opacity: 0.6;
+div#buttons a.selected {
+	border: 3px solid rgba(180,0,1, .7);
+	box-shadow: 0 0 5px rgba(230, 230, 230, .7);
+	border-radius: 8px;
 }
-div a:hover {
+
+div#buttons a:hover {
 	opacity: 0.6;
 }
 
