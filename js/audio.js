@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	$('.gifts').hide();
+	$('.gifts li').hide();
+	// $('li[data-gift="0"]').show();
+	// $('.gifts').show();
 //var audioContainer = '#audioContainer';
 var audio = '.playlist';
 var first = -1;
@@ -54,8 +56,9 @@ $('#buttons').on('click', 'a', function() {
 			// revealGifts();
 			$('a.selected').fadeOut(600);
 			var dataGift = parseInt($(this).attr('data-song'));
-			console.log(dataGift)
-			// $('#fur').show(600);
+			console.log(dataGift);
+			console.log($('li[data-gift="' + dataGift + '"]'))
+			$('li[data-gift="' + dataGift + '"]').slideDown(600);
 		} else {
 			console.log('Failed!')
 			first = -1;			

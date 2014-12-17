@@ -14,21 +14,31 @@ html{
 
 div#greetings {
 	background-color: rgba(180,0,1, .7);
-	box-shadow: 0 0 5px rgba(230, 230, 230, .7);
+	box-shadow: 0 0 16px rgba(230, 230, 230, .7);
 	float: right;
-	margin: 50px 100px;
+	margin: 30px 80px;
 	padding: 0 60px;
-	font-size: 12px;
 	text-align: center;
 	border-radius: 8px;
+	width: 500px;
 }
 
 #greetings h1 {
 	color: rgb(241, 185, 79);
+	font-size: 30px;
+	letter-spacing: 5px;
+	font-family: permanent marker;
 }
 
-#greetings h2 {
+#greetings p {
+	font-family: kalam;
+	font-size: 18px;
 	color: rgb(171, 248, 165);
+	text-align: left;
+}
+
+p#hint {
+	font-size: 12px;
 }
 
 #tree {
@@ -47,8 +57,8 @@ ul.gifts {
 li#fur {
 	background: url("../img/gifts/6.png");
 	background-size: cover;
-	width: 60px;
-	height: 80px;
+	width: 70px;
+	height: 90px;
 	position: absolute;
 	margin-left: 150px;
 	margin-top: 80px;
@@ -57,8 +67,8 @@ li#fur {
 li#heels {
 	background: url("../img/gifts/3.png");
 	background-size: cover;
-	width: 60px;
-	height: 50px;
+	width: 70px;
+	height: 60px;
 	position: absolute;
 	margin-left: 240px;
 	margin-top: 70px;
@@ -67,8 +77,8 @@ li#heels {
 li#lipstick {
 	background: url("../img/gifts/11.png");
 	background-size: cover;
-	width: 35px;
-	height: 60px;
+	width: 45px;
+	height: 85px;
 	position: absolute;
 	margin-left: 280px;
 	margin-top: 150px;
@@ -77,8 +87,8 @@ li#lipstick {
 li#hermes {
 	background: url("../img/gifts/12.png");
 	background-size: cover;
-	width: 80px;
-	height: 40px;
+	width: 93px;
+	height: 50px;
 	position: absolute;
 	margin-left: 400px;
 	margin-top: 170px;
@@ -87,28 +97,28 @@ li#hermes {
 li#iphone6 {
 	background: url("../img/gifts/14.png");
 	background-size: cover;
-	width: 55px;
-	height: 63px;
+	width: 65px;
+	height: 73px;
 	position: absolute;
 	margin-left: 100px;
-	margin-top: 170px;
+	margin-top: 180px;
 }
 
 li#silver_car {
 	background: url("../img/gifts/20.png");
 	background-size: cover;
-	width: 95px;
-	height: 25px;
+	width: 135px;
+	height: 35px;
 	position: absolute;
-	margin-left: 170px;
-	margin-top: 270px;
+	margin-left: 150px;
+	margin-top: 290px;
 }
 
 li#ring {
 	background: url("../img/gifts/19.png");
 	background-size: cover;
-	width: 50px;
-	height: 35px;
+	width: 65px;
+	height: 45px;
 	position: absolute;
 	margin-left: 50px;
 	margin-top: 320px;
@@ -117,18 +127,18 @@ li#ring {
 li#red_car {
 	background: url("../img/gifts/21.png");
 	background-size: cover;
-	width: 90px;
-	height: 30px;
+	width: 120px;
+	height: 40px;
 	position: absolute;
-	margin-left: 50px;
+	margin-left: 40px;
 	margin-top: 450px;
 }
 
 li#lbd {
 	background: url("../img/gifts/10.png");
 	background-size: cover;
-	width: 70px;
-	height: 80px;
+	width: 80px;
+	height: 90px;
 	position: absolute;
 	margin-left: 180px;
 	margin-top: 380px;
@@ -137,8 +147,8 @@ li#lbd {
 li#lv {
 	background: url("../img/gifts/15.png");
 	background-size: cover;
-	width: 63px;
-	height: 68px;
+	width: 75px;
+	height: 80px;
 	position: absolute;
 	margin-left: 280px;
 	margin-top: 430px;
@@ -147,19 +157,19 @@ li#lv {
 li#macbook {
 	background: url("../img/gifts/16.png");
 	background-size: cover;
-	width: 80px;
-	height: 45px;
+	width: 90px;
+	height: 55px;
 	position: absolute;
 	margin-left: 300px;
-	margin-top: 300px;
+	margin-top: 320px;
 }
 
 
 li#burberry {
 	background: url("../img/gifts/13.png");
 	background-size: cover;
-	width: 70px;
-	height: 70px;
+	width: 80px;
+	height: 80px;
 	position: absolute;
 	margin-left: 390px;
 	margin-top: 380px;
@@ -168,8 +178,8 @@ li#burberry {
 li#shades {
 	background: url("../img/gifts/8.png");
 	background-size: cover;
-	width: 80px;
-	height: 40px;
+	width: 90px;
+	height: 50px;
 	position: absolute;
 	margin-left: 500px;
 	margin-top: 400px;
@@ -178,15 +188,11 @@ li#shades {
 li#clubs {
 	background: url("../img/gifts/71.png");
 	background-size: cover;
-	width: 80px;
-	height: 80px;
+	width: 90px;
+	height: 90px;
 	position: absolute;
 	margin-left: 450px;
 	margin-top: 260px;
-}
-
-div#as {
-	display: block;
 }
 
 div#buttons a.selected {
@@ -250,7 +256,7 @@ a#iphone6_snowman {
 	height: 80px;
 	position: absolute;
 	margin-left: 135px;
-	margin-top: 160px;
+	margin-top: 170px;
 	border: none;
 }
 
@@ -261,7 +267,7 @@ a#silver_car_bell {
 	height: 70px;
 	position: absolute;
 	margin-left: 220px;
-	margin-top: 240px;
+	margin-top: 260px;
 	border: none;
 }
 
@@ -304,28 +310,28 @@ a#lv_box {
 	width: 60px;
 	height: 65px;
 	position: absolute;
-	margin-left: 320px;
-	margin-top: 430px;
+	margin-left: 330px;
+	margin-top: 440px;
 	border: none;
 }
 
-a#macbook_bell {
-	background: url("../img/covers/4.png");
-	background-size: cover;
-	width: 73px;
-	height: 70px;
-	position: absolute;
-	margin-left: 340px;
-	margin-top: 290px;
-	border: none;
-}
-
-
-a#burberry_snowman {
+a#macbook_snowman {
 	background: url("../img/covers/5.png");
 	background-size: cover;
 	width: 70px;
 	height: 80px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 300px;
+	border: none;
+}
+
+
+a#burberry_bell {
+	background: url("../img/covers/4.png");
+	background-size: cover;
+	width: 73px;
+	height: 70px;
 	position: absolute;
 	margin-left: 430px;
 	margin-top: 370px;
@@ -356,4 +362,8 @@ a#clubs_snowman {
 
 a:hover a:not(:hover) {
 	opacity: 0.4;
+}
+
+footer {
+	font-style: italic;
 }
