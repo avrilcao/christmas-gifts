@@ -47,7 +47,8 @@ p#hint {
 	width:700px;
 	height:600px;
 	margin-left: 100px;
-	position: relative;
+	position: fixed;
+	bottom: 30px;
 }
 
 ul.gifts {
@@ -366,4 +367,6 @@ a:hover a:not(:hover) {
 
 footer {
 	font-style: italic;
+	position: fixed;
+	bottom: 5px;
 }
