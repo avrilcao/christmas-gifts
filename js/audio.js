@@ -61,7 +61,8 @@ $('#buttons').on('click', 'a', function() {
 			$('li[data-gift="' + dataGift + '"]').slideDown(600);
 		} else {
 			console.log('Failed!')
-			first = -1;			
+			first = -1;	
+			$('a.selected').removeClass('selected');		
 		}
 		pair = !pair;
 	} else {
